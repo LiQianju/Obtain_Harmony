@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/BMI/BMIPage",
+    "pages/BMI/HistoricalRecordsPage",
+    "pages/Calories/CaloriesPage",
+    "pages/BMR/BMR",
+    "pages/Gradienter/Gradienter",
+    "pages/HandBarrag/handBarrageIndex",
+    "pages/ExpirationDate/ExpirationDate",
+    "pages/ElectronicWoodenFish/ElectronicWoodenFish",
+    "pages/Two-dimensionalCodeGeneration/Two-dimensionalCodeGeneration",
+    "pages/Compass/Compass"
+  ]
+}

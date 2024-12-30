@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001874EFFF9F0D24A9EF87F57E7C76CD2F7CC4127EFE034C321622186CAECCFBB5A3AB988130",
+          "certpath": "E:/鸿蒙上架/obtain.cer",
+          "keyAlias": "obtain_debug",
+          "keyPassword": "00000018C9AA13D0C621A65C2641F81D0C6A44EB5082A1CFCB3508A6F732A25DB7A025798654F585",
+          "profile": "E:/鸿蒙上架/obtainRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "E:/鸿蒙上架/.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
